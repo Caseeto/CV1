@@ -1,0 +1,84 @@
+/********Tag selector********/
+body{
+    background-color:#EAF6F6;
+  }
+  h1{
+    color: #66BFBF;
+  }
+  h3{
+    color: #66BFBF;
+  }
+  hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+  }
+  a{
+    color:blue;
+  }
+/********class selector********/
+.mypic:hover{
+  padding:5px;
+  border-radius:360px;
+  background-color:green;
+}
+.coder{
+  margin:2px;
+  padding:5px;
+  background-color:red;
+}
+/********id selector********/
+#BnT{
+  border-radius:5px;
+  border-width:5px;
+  width:10.9%;
+  background-color:blue;
+  }
+#WnE{
+  border-radius:5px;
+  border-width:5px;
+  width:9.5%;
+  background-color:blue;
+  }
+#S{
+  border-radius:5px;
+  border-width:5px;
+  width:3.2%;
+  background-color:blue;
+  }
+#H{
+  border-radius:5px;
+  border-width:5px;
+  width:6.8%;
+  background-color:blue;
+}
+#Ct{
+  border-radius:5px;
+  border-width:5px;
+  width:13%;
+  background-color:blue;
+}
+/**hover effect**/
+img:hover{
+  background-color:blue;
+}
+h1:hover{
+  background-color:red;
+  text-shadow:yellow;
+}
+#sub:hover{
+  background-color:green;
+  color:white;
+}
+#sub:active{
+  background-color:yellow;
+  color:red;
+}
+a:hover{
+  color:green;
+}
+a:active{
+  color:red;
+}
